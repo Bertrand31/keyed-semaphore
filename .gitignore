@@ -1,0 +1,15 @@
+# We need to have the schema files to compile locally, but they are to be retrieved from S3
+src/main/protobuf
+
+# Env file
+src/main/resources/application.conf
+
+project/project
+project/target
+target
+.bloop
+.metals
+version.sbt
+.idea
+.terraform
+.bsp
